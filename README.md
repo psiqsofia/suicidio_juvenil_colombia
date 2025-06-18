@@ -1,4 +1,4 @@
-# Análisis y Modelo Predictivo de Riesgo de Suicidio en Población Infantil y Juvenil - Colombia
+# Análisis y modelo predictivo de riesgo de suicidio en población infantil y juvenil - Colombia
 
 Este proyecto analiza los presuntos intentos de suicidio reportados por el Instituto Nacional de Medicina Legal y Ciencias Forenses en Colombia (2015–2023), enfocado en población entre 0 y 17 años.
 
