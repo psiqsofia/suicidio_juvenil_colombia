@@ -39,6 +39,37 @@ Resultados:
 - Alta precisión general
 - Dificultad para detectar casos de riesgo alto (clase minoritaria)
 - Variables más relevantes: Escolaridad, Sexo femenino, Actividad durante el hecho
+## 📊 Visualizaciones del Análisis Exploratorio
+
+A continuación se presentan algunas gráficas que permitieron identificar patrones importantes sobre los intentos de suicidio en población infantil y juvenil en Colombia.
+
+### 🗓 Casos por año y por mes
+
+Estas gráficas muestran la evolución de los casos reportados entre 2015 y 2023.
+
+![Casos por año](images/casos_x_año.jpg)
+![Casos por mes](images/casos_x_mes.jpg)
+
+### 👤 Distribución por sexo y ciclo vital
+
+La mayoría de los casos ocurren en adolescentes, con una prevalencia mayor en hombres.
+
+![Casos por sexo](images/casos_x_sexo.jpg)
+![Ciclo vital](images/ciclo_vital.jpg)
+
+### 🌍 Ubicación geográfica
+
+La mayoría de los casos se presentan en cabeceras municipales y se concentran en departamentos como Antioquia y Bogotá.
+
+![Zona del hecho](images/zona.jpg)
+![Municipios](images/municipios.jpg)
+![Departamentos](images/departamentos.jpg)
+
+### 💔 Razones del suicidio
+
+Aunque muchos registros no incluyen esta información, entre las razones más comunes reportadas se encuentran: desamor, enfermedades mentales y enfermedades físicas.
+
+![Razones del suicidio](images/razones.jpg)
 
 > ⚠️ Este modelo no busca diagnosticar ni reemplazar juicio clínico. Es un ejercicio exploratorio que muestra cómo el análisis de datos puede apoyar la investigación social.
 
