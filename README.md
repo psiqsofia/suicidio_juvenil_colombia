@@ -1,10 +1,10 @@
 # Análisis y modelo predictivo de riesgo de suicidio en población infantil y juvenil - Colombia
 
-Este proyecto analiza los presuntos intentos de suicidio reportados por el Instituto Nacional de Medicina Legal y Ciencias Forenses en Colombia (2015–2023), enfocado en población entre 0 y 17 años.
+Este proyecto analiza los presuntos intentos de suicidio reportados por el Instituto Nacional de Medicina Legal y Ciencias Forenses en Colombia (2015–2023). Se seleccionó la población específica entre 0 y 17 años.
 
 ## 🎯 Objetivo
 
-Explorar y comprender los patrones del fenómeno en infancia y adolescencia.  
+Explorar y comprender los patrones del fenómeno en la infancia y adolescencia. 
 Además, construir una variable de “Riesgo Alto” con base en criterios psicosociales, y entrenar un modelo predictivo que permita identificar factores relevantes.
 
 ## 🔍 Dataset
@@ -12,6 +12,7 @@ Además, construir una variable de “Riesgo Alto” con base en criterios psico
 Fuente: [Datos Abiertos Colombia - Medicina Legal](https://www.datos.gov.co)
 
 Filtrado por:
+- Limpieza de datos, columnas con valores nulos, filas duplicadas, selección de datos pertinentes según criterio propio
 - Ciclo vital: Primera infancia, Infancia y Adolescencia
 - Columnas relevantes como: edad, sexo, escolaridad, razón del suicidio, entre otras
 
@@ -45,14 +46,14 @@ A continuación se presentan algunas gráficas que permitieron identificar patro
 
 ### 🗓 Casos por año y por mes
 
-Estas gráficas muestran la evolución de los casos reportados entre 2015 y 2023.
+Estas gráficas muestran la evolución de los casos reportados entre 2015 y 2023. El año con mayores cifras fue 2022, los mes con tasas más altas son Abril y Agosto.
 
 ![Casos por año](images/casos_x_año.jpg)
 ![Casos por mes](images/casos_x_mes.jpg)
 
 ### 👤 Distribución por sexo y ciclo vital
 
-La mayoría de los casos ocurren en adolescentes, con una prevalencia mayor en hombres.
+De la población seleccionada, la mayoría de los casos ocurren en adolescentes, con una prevalencia en varones.
 
 ![Casos por sexo](images/casos_x_sexo.jpg)
 ![Ciclo vital](images/ciclo_vital.jpg)
@@ -75,7 +76,7 @@ Aunque muchos registros no incluyen esta información, entre las razones más co
 
 ## 🧠 Reflexión
 
-Como psicóloga interesada en ciencia de datos, este proyecto me permitió conectar estadística, conocimiento contextual y sensibilidad humana. El resultado no es un algoritmo perfecto, sino una herramienta para pensar mejor los datos y comprender cómo la interpretación y manipulación influye en los modelos.
+Como psicóloga interesada en ciencia de datos, este proyecto me permitió conectar estadística, conocimiento contextual y sensibilidad humana. El resultado no es un algoritmo perfecto que logra predecir un tema tan delicado como el suicidio, sin embargo es una herramienta que permite pensar los datos que se tienen frente al tema, analizando las posibles variables asociadas a este evento y utilizando las cifras para estudiar el fenómeno triste de acabar con la propia vida. Esta exploración permite comprender cómo la interpretación y manipulación influye en los modelos, siendo entrenados con las características dadas por el analista según corresponda.
 
 ## 🛠️ Herramientas
 
