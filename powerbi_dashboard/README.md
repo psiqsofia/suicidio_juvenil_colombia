@@ -9,7 +9,7 @@ Este panel de Power BI explora los datos de suicidio en jóvenes colombianos, ba
 
 
 📷 **Vista previa**
-![Vista previa del tablero](dashboard_preview.png)
+![Vista previa del tablero](dashboard_preview.jpg)
 
 📥 **Descargas**
 - [Archivo de Power BI (.pbix)](suicidio_PBI.pbix)
